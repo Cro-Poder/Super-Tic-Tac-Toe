@@ -1,0 +1,16 @@
+{
+  "short_name": "SuperTTT",
+  "name": "Super Tic-Tac-Toe Arena",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#090D16",
+  "theme_color": "#090D16",
+  "display": "standalone",
+  "orientation": "portrait"
+}

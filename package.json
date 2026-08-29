@@ -1,0 +1,31 @@
+{
+  "name": "super-tic-tac-toe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready Ultimate / Super Tic-Tac-Toe web application with AI and real-time multiplayer",
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "dev:all": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client && npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "start": "npm run start --prefix server",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server"
+  },
+  "keywords": [
+    "super-tic-tac-toe",
+    "ultimate-tic-tac-toe",
+    "react",
+    "typescript",
+    "socket.io",
+    "minimax",
+    "mcts",
+    "tailwind"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
