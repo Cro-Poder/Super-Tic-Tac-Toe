@@ -1,6 +1,7 @@
 {
   "name": "super-tic-tac-toe-server",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "description": "Real-time game server for Super Tic-Tac-Toe using Express and Socket.io",
   "main": "dist/server.js",
